@@ -33,13 +33,14 @@
     "typescript": "3.7.5",
     "webpack": "4.41.6",
     "webpack-cli": "3.1.2",
+    "webpack-dashboard": "^3.2.1",
     "webpack-dev-server": "3.10.3"
   },
   "dependencies": {
     "@geist-ui/react": "^2.0.1",
     "@types/react": "16.9.19",
     "@types/react-dom": "16.9.5",
-    "@types/styled-components": "4.4.2",
+    "@types/styled-components": "^5.1.3",
     "@types/webpack-env": "1.15.1",
     "@typescript-eslint/eslint-plugin": "2.19.2",
     "@typescript-eslint/parser": "2.19.2",
@@ -50,7 +51,7 @@
   },
   "scripts": {
     "build": "webpack --config ./webpack.prod.js --mode production",
-    "dev": "webpack-dev-server",
+    "dev": "webpack-dashboard -- webpack-dev-server",
     "watch": "webpack --config ./webpack.config.js --mode development",
     "format": "prettier --write **/*",
     "format-check": "prettier --check **/*",
