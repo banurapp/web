@@ -1,3 +1,8 @@
+---
+name: '✨ New Component: <component-slug>'
+about: New component for the Banur web interface
+---
+
 ## Description
 
 <!--
