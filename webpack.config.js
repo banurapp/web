@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const DashboardPlugin = require('webpack-dashboard/plugin');
 
 module.exports = {
 	mode: 'development',
@@ -32,6 +33,7 @@ module.exports = {
 		new webpack.DefinePlugin({
 			__DEV__: true,
 		}),
+		new DashboardPlugin(),
 	],
 	devServer: {
 		contentBase: path.resolve(__dirname, 'public'),
