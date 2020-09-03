@@ -2,5 +2,6 @@
 	"arrowParens": "always",
 	"endOfLine": "lf",
 	"jsxBracketSameLine": true,
-	"useTabs": true
+	"useTabs": true,
+	"singleQuote": true
 }
