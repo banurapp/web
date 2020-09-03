@@ -13,16 +13,48 @@
 
 Welcome to the web interface for the Banur Project! We're so excited to have you.
 
+---
+
+## What is this for?
+
+This is the main interface that connects to each Banur community—the client that brings it all together.
+
 ## 🛠 Contributing
 
-Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file to get started.
+Before getting started at all, please read our [Code Of Conduct](CODE_OF_CONDUCT.md), then learn how to [Contribute](CONTRIBUTING.md).
 
-## ❓ What is this for
+## ✍️ Getting Started
 
-This is for the main interface that connects to each Banur community—the client that brings it all together.
+### Clone
+
+```bash
+git clone https://github.com/banurapp/web.git
+```
+
+### Install dependencies
+
+```bash
+yarn install
+```
+
+### Start local server
+
+```bash
+yarn run build
+yarn run dev
+```
+
+---
+
+## Final
+Before pushing your changes and creating pull requests, please check how to [Contribute](CONTRIBUTING.md).
+
+We value your contributions to Banur, so thank you!
 
 For general Banur questions, please see [`banurapp/banur`](https://github.com/banurapp/banur).
 
-Happy Hacking,
+---
 
-The Banur team.
+**Happy Hacking,**
+
+**The Banur team.**
