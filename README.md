@@ -1,7 +1,7 @@
 ![Banur for the Web](banur.png)
 
 
-# 🏗Banur::Web
+# 🏗 Banur::Web
 
 ![Build status](https://github.com/banurapp/interface-web/workflows/build/badge.svg)
 ![GitHub](https://img.shields.io/github/license/banurapp/interface-web)
