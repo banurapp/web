@@ -14,6 +14,10 @@
     "@babel/preset-env": "7.5.0",
     "@babel/preset-react": "7.0.0",
     "@babel/runtime": "7.5.0",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/react": "^6.0.21",
     "babel-eslint": "9.0.0",
     "babel-loader": "8.0.4",
     "eslint": "5.16.0",
@@ -27,11 +31,12 @@
     "eslint-plugin-react": "7.18.0",
     "eslint-plugin-react-hooks": "1.7.0",
     "prettier": "1.19.1",
+    "react-is": "^16.13.1",
     "regenerator-runtime": "0.13.2",
-    "terser-webpack-plugin": "1.2.3",
+    
     "ts-loader": "6.2.1",
     "typescript": "3.7.5",
-    "webpack": "4.41.6",
+    
     "webpack-cli": "3.1.2",
     "webpack-dashboard": "^3.2.1",
     "webpack-dev-server": "3.10.3"
@@ -44,10 +49,12 @@
     "@types/webpack-env": "1.15.1",
     "@typescript-eslint/eslint-plugin": "2.19.2",
     "@typescript-eslint/parser": "2.19.2",
+    "terser-webpack-plugin": "1.2.3",
     "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "styled-components": "5.0.0"
+    "styled-components": "5.0.0",
+    "webpack": "4.41.6"
   },
   "scripts": {
     "build": "webpack --config ./webpack.prod.js --mode production",
@@ -56,6 +63,8 @@
     "format": "prettier --write **/*",
     "format-check": "prettier --check **/*",
     "lint": "eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix",
-    "lint-workflow": "eslint \"*/**/*.{js,ts,tsx}\" --quiet"
+    "lint-workflow": "eslint \"*/**/*.{js,ts,tsx}\" --quiet",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
