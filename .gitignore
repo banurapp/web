@@ -63,4 +63,4 @@ typings/
 # dotenv environment variables file
 .env
 
-
+public/app.js
