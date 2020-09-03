@@ -51,6 +51,10 @@
   "scripts": {
     "build": "webpack --config ./webpack.prod.js --mode production",
     "dev": "webpack-dev-server",
-    "watch": "webpack --config ./webpack.config.js --mode development"
+    "watch": "webpack --config ./webpack.config.js --mode development",
+    "format": "prettier --write src/",
+    "format-check": "prettier --check src/",
+    "lint": "eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix",
+    "lint-workflow": "eslint \"*/**/*.{js,ts,tsx}\" --quiet"
   }
 }
