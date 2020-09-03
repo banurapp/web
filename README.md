@@ -16,6 +16,33 @@ Welcome to the web interface for the Banur Project! We're so excited to have you
 
 Please read the [Contributions](CONTRIBUTING.md) file to get started.
 
+## ✍️ Getting Started
+
+### Clone
+
+```bash
+git clone https://github.com/banurapp/web.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start local server
+
+```bash
+npm run build
+npm run dev
+```
+
+### Final
+Before pushing your changes and creating pull requests, please check how to [Contribute](CONTRIBUTING.md).
+
+We value your contributions to Banur, so thank you!
+
+
 ## What is this for?
 
 This is for the main interface that connects to each Banur community—the client that brings it all together.
