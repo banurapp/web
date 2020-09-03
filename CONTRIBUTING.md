@@ -21,3 +21,4 @@
 ## General
 
 - When you take on an issue please set yourself as the assignee.
+- Some files in this repo are synced from other repos. Please see the [fsync.yml file](.github/fsync.yml) to see where some files come from.
