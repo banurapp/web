@@ -34,28 +34,15 @@ git clone https://github.com/banurapp/web.git
 
 ### Install dependencies
 
-#### With Yarn
 ```bash
 yarn install
-```
-#### With NPM
-```bash
-npm install
 ```
 
 ### Start local server
 
-#### With Yarn
-
 ```bash
 yarn run build
 yarn run dev
-```
-
-#### With NPM
-```bash
-npm run build
-npm run dev
 ```
 
 ---
