@@ -9,15 +9,20 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/banurapp/interface-web)
 ![GitHub last commit](https://img.shields.io/github/last-commit/banurapp/interface-web)
 
+---
 
 ## What is this for?
 
 This is the main interface that connects to each Banur community—the client that brings it all together.
 Welcome to the web interface for the Banur Project! We're so excited to have you.
 
+---
+
 ## 🛠 Contributing
 
 Before getting started at all, please read our [Code Of Conduct](CODE_OF_CONDUCT.md), then learn how to [Contribute](CONTRIBUTING.md).
+
+---
 
 ## ✍️ Getting Started
 
@@ -29,24 +34,41 @@ git clone https://github.com/banurapp/web.git
 
 ### Install dependencies
 
+#### With Yarn
+```bash
+yarn install
+```
+#### With NPM
 ```bash
 npm install
 ```
 
 ### Start local server
 
+#### With Yarn
+
+```bash
+yarn run build
+yarn run dev
+```
+
+#### With NPM
 ```bash
 npm run build
 npm run dev
 ```
 
-### Final
+---
+
+## Final
 Before pushing your changes and creating pull requests, please check how to [Contribute](CONTRIBUTING.md).
 
 We value your contributions to Banur, so thank you!
 
 For general Banur questions, please see [`banurapp/banur`](https://github.com/banurapp/banur).
 
-Happy Hacking,
+---
 
-The Banur team.
+**Happy Hacking,**
+
+**The Banur team.**
