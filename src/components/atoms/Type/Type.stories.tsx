@@ -8,5 +8,5 @@ export const Secondary = () => <Heading>Hello</Heading>;
 
 export default {
 	title: 'Typography',
-	component: GeistText
+	component: GeistText,
 };
