@@ -13,7 +13,7 @@ import {
 	Row,
 	Col,
 	Badge,
-	Avatar
+	Avatar,
 } from '@geist-ui/react';
 
 const Xawef = styled(Col)<any>`
@@ -65,7 +65,7 @@ const App = () => {
 								'z',
 								'z',
 								'z',
-								'a'
+								'a',
 							].map((v, i) => (
 								// <>
 								<Badge.Anchor>
