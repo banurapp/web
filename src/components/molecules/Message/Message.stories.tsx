@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text } from '@geist-ui/react';
 
+console.log('hi');
 export const Title: React.FC = ({ children, ...props }) => (
 	<Text h1 {...props}>
 		{children}
