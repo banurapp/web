@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React from 'react'
+import styled from 'styled-components'
 import {
 	GeistProvider,
 	CssBaseline,
@@ -9,19 +9,18 @@ import {
 	useTabs,
 	Container,
 	Spacer,
-	Divider,
 	Row,
 	Col,
 	Badge,
-	Avatar,
-} from '@geist-ui/react';
+	Avatar
+} from '@geist-ui/react'
 
 const Xawef = styled(Col)<any>`
 	margin-bottom: 1rem;
-`;
+`
 
 const App = () => {
-	const { bindings } = useTabs('1');
+	const { bindings } = useTabs('1')
 
 	return (
 		<GeistProvider theme={{ type: 'dark' }}>
@@ -46,7 +45,7 @@ const App = () => {
 
 				<Row>
 					<Col span={2}>
-						<Xawef span={1} style={{ flexDirection: 'column-reverse' }}>
+						<Xawef span={1}>
 							{[
 								'z',
 								'z',
@@ -65,8 +64,8 @@ const App = () => {
 								'z',
 								'z',
 								'z',
-								'a',
-							].map((v, i) => (
+								'a'
+							].map((v) => (
 								// <>
 								<Badge.Anchor>
 									<Badge size="mini">{v}</Badge>
@@ -84,7 +83,7 @@ const App = () => {
 				</Row>
 			</Page>
 		</GeistProvider>
-	);
-};
+	)
+}
 
-export default App;
+export default App

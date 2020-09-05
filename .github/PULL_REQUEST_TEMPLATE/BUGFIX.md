@@ -1,5 +1,5 @@
 ---
-name: '🐛⚡️ New Fix: <component-slug>'
+name: '🐛⚡️ New Fix: <bug-slug>'
 about: New bugfix for the Banur web interface
 ---
 
