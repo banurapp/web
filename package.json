@@ -31,6 +31,7 @@
 		"eslint-plugin-prettier": "^3.1.4",
 		"eslint-plugin-react": "7.18.0",
 		"eslint-plugin-react-hooks": "1.7.0",
+		"husky": "^4.2.5",
 		"prettier": "1.19.1",
 		"prettier-eslint": "^11.0.0",
 		"react-is": "^16.13.1",
@@ -69,5 +70,10 @@
 		"lint:workflow": "eslint \"src/**/*.{js,ts,tsx}\" --quiet",
 		"storybook": "start-storybook -p 6006",
 		"storybook:build": "build-storybook"
+	},
+	"husky": {
+		"hooks": {
+			"pre-push": "yarn lint:check && yarn format:check"
+		}
 	}
 }
