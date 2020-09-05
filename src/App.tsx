@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import {
 	GeistProvider,
@@ -9,7 +9,6 @@ import {
 	useTabs,
 	Container,
 	Spacer,
-	Divider,
 	Row,
 	Col,
 	Badge,
@@ -66,7 +65,7 @@ const App = () => {
 								'z',
 								'z',
 								'a'
-							].map((v, i) => (
+							].map((v) => (
 								// <>
 								<Badge.Anchor>
 									<Badge size="mini">{v}</Badge>
