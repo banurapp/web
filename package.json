@@ -62,7 +62,7 @@
     "watch": "webpack --config ./webpack.config.js --mode development",
     "format": "prettier --single-quote --write 'src/**/*'",
     "format:check": "prettier --single-quote --check 'src/**/*'",
-    "lint": "eslint \"*/**/*.{js,ts,tsx}\" --quiet --fix",
+    "lint": "eslint \"src/*/**/*.{js,ts,tsx}\" --quiet --fix",
     "lint:workflow": "eslint \"*/**/*.{js,ts,tsx}\" --quiet",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook"
