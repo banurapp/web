@@ -73,7 +73,7 @@
 	},
 	"husky": {
 		"hooks": {
-			"pre-push": "yarn lint:check && yarn format:check"
+			"pre-push": "yarn lint:workflow && yarn format:check"
 		}
 	}
 }
