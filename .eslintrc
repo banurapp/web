@@ -1,9 +1,10 @@
 {
   "extends": [
+    
     "wesbos",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier"
+    
   ],
   "globals": {
     "chrome": true
@@ -16,7 +17,8 @@
     "react/jsx-filename-extension": 0,
     "@typescript-eslint/no-explicit-any": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
-    "@typescript-eslint/no-var-requires": 0
+    "@typescript-eslint/no-var-requires": 0,
+    "prettier/prettier": 0
   },
   "settings": {
     "import/parsers": {
@@ -30,6 +32,7 @@
   },
   "parser": "@typescript-eslint/parser",
   "plugins": [
-    "@typescript-eslint/eslint-plugin"
+    "@typescript-eslint/eslint-plugin",
+    
   ]
 }
