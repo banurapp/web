@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import {
 	GeistProvider,
@@ -9,11 +9,10 @@ import {
 	useTabs,
 	Container,
 	Spacer,
-	Divider,
 	Row,
 	Col,
 	Badge,
-	Avatar,
+	Avatar
 } from '@geist-ui/react';
 
 const Xawef = styled(Col)<any>`
@@ -46,7 +45,7 @@ const App = () => {
 
 				<Row>
 					<Col span={2}>
-						<Xawef span={1} style={{ flexDirection: 'column-reverse' }}>
+						<Xawef span={1}>
 							{[
 								'z',
 								'z',
@@ -65,8 +64,8 @@ const App = () => {
 								'z',
 								'z',
 								'z',
-								'a',
-							].map((v, i) => (
+								'a'
+							].map((v) => (
 								// <>
 								<Badge.Anchor>
 									<Badge size="mini">{v}</Badge>
