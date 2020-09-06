@@ -21,7 +21,7 @@ This is the main interface that connects to each Banur community—the client th
 
 ## 🛠 Contributing
 
-Before getting started at all, please read our [Code Of Conduct](CODE_OF_CONDUCT.md), then learn how to [Contribute](CONTRIBUTING.md).
+Before getting started at all, please read our [Code Of Conduct](CODE_OF_CONDUCT.md), then learn how to [contribute](CONTRIBUTING.md).
 
 ## ✍️ Getting Started
 
