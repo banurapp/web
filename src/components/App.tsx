@@ -16,7 +16,7 @@ import {
 	Avatar,
 } from '@geist-ui/react';
 
-const Xawef = styled(Col)<any>`
+const Xawef = styled(Col) <any>`
 	margin-bottom: 1rem;
 `;
 
